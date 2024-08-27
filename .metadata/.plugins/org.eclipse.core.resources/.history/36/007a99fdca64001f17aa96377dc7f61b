@@ -1,0 +1,12 @@
+package exercicio;
+
+public class desafio4 {
+
+	public static void main(String[] args) {
+		for (int i = 0; i <= 10; i++) {
+			System.out.println("número: " + i);
+		}
+		
+		System.out.println("acabo");
+	}
+}
