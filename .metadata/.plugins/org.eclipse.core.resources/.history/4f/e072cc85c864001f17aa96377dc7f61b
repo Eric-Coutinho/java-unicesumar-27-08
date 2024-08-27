@@ -1,0 +1,20 @@
+package exercicio;
+
+public class desafio2 {
+
+	public static void main(String[] args) {
+		int idade = -19;
+		
+		if (idade >= 18) {
+			System.out.println("ja ta podendo beber");
+		}	
+		else if (idade < 18) {
+			System.out.println("crianca ainda kkk");
+		}
+		else if (idade < 0) {
+			System.out.println("idade negativa n pode");
+		}
+		
+		System.out.println("acabo");
+	}
+}
